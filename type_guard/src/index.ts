@@ -133,5 +133,7 @@ class Motorista extends Profissao{
 }
 
 function executar(profissional: Profissao){
-
+    if(profissional.isMotorista()){
+        
+    }
 }
